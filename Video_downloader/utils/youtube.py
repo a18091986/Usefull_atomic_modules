@@ -1,11 +1,9 @@
 import pathlib
 import time
 import random
-from tqdm import tqdm
-from pathlib import Path
+
 from pytube import YouTube, Playlist
 
-from utils.common_funcs import get_value_from_config
 from utils.log import log_in_file_and_print_in_terminal
 
 
@@ -13,9 +11,22 @@ def prepare_path(path: pathlib.Path):
     pathlib.Path(path).mkdir(parents=True, exist_ok=True)
 
 
+def check_is_video_part_of_playlist(video_link: str) -> int:
+    result = 0
+    try:
+        playlist_info = Playlist(video_link)
+        if len(playlist_info):
+            log_in_file_and_print_in_terminal(msg=f"Видео является частью плейлиста")
+            result = 1
+    except Exception as e:
+        log_in_file_and_print_in_terminal(f"Для {video_link} получена ошибка при определении плейлиста\n{e}",
+                                          loglevel=2, print_in_terminal=True)
+    return result
+
+
 def get_info_about_youtube_video(video_link: str) -> list:
     # получение данных о видео по ссылке: название, автор видео, является ли видео частью плейлиста
-    remove_symbols = r'«*."/\[]:;-|,»&?! <>'
+    remove_symbols = r'«*."()/\[]:;-|,»&?! <>'
     try:
         video_info = YouTube(video_link)  # получаем данные о видео по ссылке
         video_author = ''.join([x if x not in remove_symbols else '_' for x in video_info.author])
@@ -41,6 +52,7 @@ def download_single_video(video_link: str, filename: str, save_path=pathlib.Path
     скачивание отдельного видео по ссылке на youtube
     save_path - путь для сохранения
     """
+    prepare_path(save_path)
     try:
         yt = YouTube(video_link)
         yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc().first() \
@@ -62,12 +74,13 @@ def download_single_video(video_link: str, filename: str, save_path=pathlib.Path
                 pass
 
 
-def download_youtube_video(video_link: str, save_path=pathlib.Path.cwd(), one_or_all='one'):
+def download_youtube_video(video_link: str, save_path=pathlib.Path.cwd(), one_or_all='one') -> list:
     """
     скачивание видео по ссылке на youtube
     save_path - путь для сохранения + добавляются подпапки исходя из названия кананала и плейлиста
     one_or_all - скачивать весь плейлист или только отдельное видео
     """
+    result = list()
     remove_symbols = r'«*."/\[]:;-|,»&?! <>'
     video_title, video_author, len_playlist = get_info_about_youtube_video(video_link)
     print(video_title)
@@ -75,6 +88,7 @@ def download_youtube_video(video_link: str, save_path=pathlib.Path.cwd(), one_or
         save_dir = pathlib.Path(save_path, video_author)
         prepare_path(save_dir)
         download_single_video(video_link=video_link, save_path=save_dir, filename=video_title)
+        result.append(pathlib.Path(save_dir, video_title).exists())
 
     elif one_or_all == 'all' and len_playlist:
         playlist = Playlist(video_link)
@@ -82,10 +96,13 @@ def download_youtube_video(video_link: str, save_path=pathlib.Path.cwd(), one_or
         video_author = get_info_about_youtube_video(video_link)[1]
         save_dir = pathlib.Path(save_path, playlist_title, video_author)
         prepare_path(save_dir)
-        for video_link in tqdm(playlist):
+        for index, video_link in enumerate(playlist):
+            log_in_file_and_print_in_terminal(msg=f"Cкачивание {index} / {len(playlist)} видео")
             try:
                 video_title = get_info_about_youtube_video(video_link)[0]
                 download_single_video(video_link=video_link, save_path=save_dir, filename=video_title)
+                log_in_file_and_print_in_terminal(msg=f"успешно {video_link}")
             except Exception as e:
-                print(e)
-
+                log_in_file_and_print_in_terminal(msg=f"C ошибкой {video_link}\n{e}")
+            result.append(pathlib.Path(save_dir, video_title).exists())
+        return result
