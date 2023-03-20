@@ -13,4 +13,6 @@ from utils.text_and_comminication_with_user_utils import \
 
 # download(playlist_or_single_video, download_link)
 download_youtube_video('https://youtu.be/cXCuXNwzdfY?list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc', one_or_all='all')
-# 2.
+# download_youtube_video('https://youtu.be/eoL-aU997CY', one_or_all='all')
+2.
+2.

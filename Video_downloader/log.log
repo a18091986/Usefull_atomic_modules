@@ -1,20 +1,477 @@
-pytube.helpers 2023-03-20 16:00:58,379 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-root 2023-03-20 16:01:00,371 DEBUG Для https://youtu.be/cXCuXNwzdfY?list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc получена информация:
+pytube.helpers 2023-03-20 16:45:43,212 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:45:47,180 DEBUG Для https://youtu.be/cXCuXNwzdfY?list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc получена информация:
 Title: ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
 Author: Alek OS
 Playlist количество видео: 10
-pytube.helpers 2023-03-20 16:01:01,069 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-root 2023-03-20 16:01:02,207 DEBUG Для https://youtu.be/cXCuXNwzdfY?list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc получена информация:
+pytube.helpers 2023-03-20 16:45:48,341 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:45:50,894 DEBUG Для https://youtu.be/cXCuXNwzdfY?list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc получена информация:
 Title: ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
 Author: Alek OS
 Playlist количество видео: 10
-pytube.helpers 2023-03-20 16:01:02,296 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:03,651 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:05,066 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:06,546 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:07,904 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:09,324 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:10,807 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:12,237 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:13,742 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
-pytube.helpers 2023-03-20 16:01:15,304 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:45:50,927 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:45:52,125 DEBUG Для https://www.youtube.com/watch?v=Wh22_O8jXVQ получена информация:
+Title: КАК РАБОТАЕТ ПАМЯТЬ КОМПЬЮТЕРА | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:45:52,125 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:45:55,557 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:45:55,559 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:45:55,560 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:45:55,560 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:45:55,576 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:45:57,508 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:45:57,748 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:45:57,748 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:45:57,748 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:45:57,748 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:45:57,749 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:45:57,750 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:45:57,752 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:45:57,753 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:45:57,755 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:45:59,285 DEBUG downloading (22954452 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАЕТ_ПАМЯТЬ_КОМПЬЮТЕРА___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:01,477 DEBUG download remaining: 13517268
+pytube.streams 2023-03-20 16:46:03,416 DEBUG download remaining: 4080084
+pytube.streams 2023-03-20 16:46:04,621 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:04,621 DEBUG download finished
+root 2023-03-20 16:46:04,621 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=Wh22_O8jXVQ
+pytube.helpers 2023-03-20 16:46:04,622 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:46:06,053 DEBUG Для https://www.youtube.com/watch?v=k9wK2FThEsk получена информация:
+Title: КАК РАБОТАЕТ ПРОЦЕССОР | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:46:06,053 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:46:09,494 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:46:09,496 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:46:09,497 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:46:09,497 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:46:09,516 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:46:09,516 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:46:09,759 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:46:09,759 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:46:09,759 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:46:09,759 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:46:09,760 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:09,760 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:46:09,762 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:09,763 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,764 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,765 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:09,765 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:46:10,273 DEBUG downloading (40056588 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАЕТ_ПРОЦЕССОР___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:11,440 DEBUG download remaining: 30619404
+pytube.streams 2023-03-20 16:46:12,614 DEBUG download remaining: 21182220
+pytube.streams 2023-03-20 16:46:13,396 DEBUG download remaining: 11745036
+pytube.streams 2023-03-20 16:46:14,231 DEBUG download remaining: 2307852
+pytube.streams 2023-03-20 16:46:14,669 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:14,669 DEBUG download finished
+root 2023-03-20 16:46:14,670 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=k9wK2FThEsk
+pytube.helpers 2023-03-20 16:46:14,670 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:46:15,226 DEBUG Для https://www.youtube.com/watch?v=MXoMuymbfo8 получена информация:
+Title: КАК РАБОТАЕТ СТЕК | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:46:15,226 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:46:16,773 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:46:16,774 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:46:16,775 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:46:16,775 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:46:16,796 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:46:16,796 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:46:17,046 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:46:17,046 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:46:17,047 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:46:17,047 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:46:17,047 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:17,048 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:46:17,050 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:17,050 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:46:17,051 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,051 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,051 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,051 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:17,052 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:46:18,009 DEBUG downloading (23200135 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАЕТ_СТЕК___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:19,839 DEBUG download remaining: 13762951
+pytube.streams 2023-03-20 16:46:21,783 DEBUG download remaining: 4325767
+pytube.streams 2023-03-20 16:46:22,432 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:22,433 DEBUG download finished
+root 2023-03-20 16:46:22,433 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=MXoMuymbfo8
+pytube.helpers 2023-03-20 16:46:22,433 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:46:23,114 DEBUG Для https://www.youtube.com/watch?v=4MFcmreAUhs получена информация:
+Title: КАК РАБОТАЮТ КОДИРОВКИ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:46:23,114 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:46:24,941 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:46:24,942 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:46:24,943 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:46:24,943 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:46:24,964 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:46:24,964 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:46:25,200 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:46:25,200 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:46:25,200 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:46:25,200 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:46:25,201 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:25,201 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:46:25,203 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:25,203 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:25,205 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:46:26,019 DEBUG downloading (25005137 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАЮТ_КОДИРОВКИ___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:29,361 DEBUG download remaining: 15567953
+pytube.streams 2023-03-20 16:46:30,694 DEBUG download remaining: 6130769
+pytube.streams 2023-03-20 16:46:31,692 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:31,692 DEBUG download finished
+root 2023-03-20 16:46:31,692 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=4MFcmreAUhs
+pytube.helpers 2023-03-20 16:46:31,693 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:46:32,339 DEBUG Для https://www.youtube.com/watch?v=kG_ipMygRUc получена информация:
+Title: СИСТЕМЫ СЧИСЛЕНИЯ С НУЛЯ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:46:32,339 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:46:34,101 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:46:34,102 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:46:34,103 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:46:34,103 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:46:34,122 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:46:34,123 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:46:34,364 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:46:34,364 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:46:34,364 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:46:34,364 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:46:34,365 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:34,365 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:46:34,367 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:34,367 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:34,369 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:46:34,781 DEBUG downloading (16302239 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\СИСТЕМЫ_СЧИСЛЕНИЯ_С_НУЛЯ___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:35,595 DEBUG download remaining: 6865055
+pytube.streams 2023-03-20 16:46:36,200 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:36,201 DEBUG download finished
+root 2023-03-20 16:46:36,201 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=kG_ipMygRUc
+pytube.helpers 2023-03-20 16:46:36,201 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:46:36,935 DEBUG Для https://www.youtube.com/watch?v=U0U8Ddx4TgE получена информация:
+Title: КАК РАБОТАЮТ ЧИСЛА С ПЛАВАЮЩЕЙ ТОЧКОЙ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:46:36,936 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:46:39,172 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:46:39,173 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:46:39,174 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:46:39,174 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:46:39,194 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:46:39,195 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:46:39,437 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:46:39,437 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:46:39,437 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:46:39,437 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:46:39,438 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:39,438 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:46:39,441 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:39,441 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,442 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:39,443 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:46:39,817 DEBUG downloading (19284704 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАЮТ_ЧИСЛА_С_ПЛАВАЮЩЕЙ_ТОЧКОЙ___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:40,759 DEBUG download remaining: 9847520
+pytube.streams 2023-03-20 16:46:41,696 DEBUG download remaining: 410336
+pytube.streams 2023-03-20 16:46:42,300 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:42,301 DEBUG download finished
+root 2023-03-20 16:46:42,301 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=U0U8Ddx4TgE
+pytube.helpers 2023-03-20 16:46:42,301 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:46:43,208 DEBUG Для https://www.youtube.com/watch?v=7n_8cOBpQrg получена информация:
+Title: КАК РАБОТАЕТ КЭШ ПРОЦЕССОРА | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:46:43,208 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:46:46,085 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:46:46,086 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:46:46,087 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:46:46,087 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:46:46,106 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:46:46,106 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:46:46,344 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:46:46,344 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:46:46,345 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:46:46,345 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:46:46,345 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:46,346 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:46:46,348 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:46,348 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:46:46,349 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,349 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,349 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,349 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:46,350 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:46:47,857 DEBUG downloading (40614297 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАЕТ_КЭШ_ПРОЦЕССОРА___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:49,562 DEBUG download remaining: 31177113
+pytube.streams 2023-03-20 16:46:51,761 DEBUG download remaining: 21739929
+pytube.streams 2023-03-20 16:46:52,954 DEBUG download remaining: 12302745
+pytube.streams 2023-03-20 16:46:53,690 DEBUG download remaining: 2865561
+pytube.streams 2023-03-20 16:46:54,503 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:54,503 DEBUG download finished
+root 2023-03-20 16:46:54,503 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=7n_8cOBpQrg
+pytube.helpers 2023-03-20 16:46:54,504 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:46:54,683 DEBUG Для https://www.youtube.com/watch?v=BIYiuy8WWiU получена информация:
+Title: КАК РАБОТАЮТ ОТРИЦАТЕЛЬНЫЕ ЧИСЛА | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:46:54,683 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:46:55,358 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:46:55,359 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:46:55,360 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:46:55,360 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:46:55,378 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:46:55,378 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:46:55,619 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:46:55,619 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:46:55,619 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:46:55,619 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:46:55,620 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:55,620 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:46:55,622 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:46:55,622 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,624 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:46:55,625 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:46:55,701 DEBUG downloading (19957181 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАЮТ_ОТРИЦАТЕЛЬНЫЕ_ЧИСЛА___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:46:56,744 DEBUG download remaining: 10519997
+pytube.streams 2023-03-20 16:46:58,106 DEBUG download remaining: 1082813
+pytube.streams 2023-03-20 16:46:59,272 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:46:59,272 DEBUG download finished
+root 2023-03-20 16:46:59,272 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=BIYiuy8WWiU
+pytube.helpers 2023-03-20 16:46:59,272 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:47:00,650 DEBUG Для https://www.youtube.com/watch?v=qewavPO6jcA получена информация:
+Title: КАК РАБОТАТЬ С БИТАМИ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 0
+pytube.helpers 2023-03-20 16:47:00,650 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:47:05,438 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:47:05,439 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:47:05,440 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:47:05,440 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:47:05,461 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:47:05,461 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:47:05,699 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:47:05,699 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:47:05,699 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:47:05,699 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:47:05,700 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:47:05,700 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:47:05,702 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:47:05,703 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:05,704 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:47:06,329 DEBUG downloading (35056720 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\КАК_РАБОТАТЬ_С_БИТАМИ___ОСНОВЫ_ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:47:07,548 DEBUG download remaining: 25619536
+pytube.streams 2023-03-20 16:47:08,994 DEBUG download remaining: 16182352
+pytube.streams 2023-03-20 16:47:10,550 DEBUG download remaining: 6745168
+pytube.streams 2023-03-20 16:47:11,922 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:47:11,922 DEBUG download finished
+root 2023-03-20 16:47:11,923 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=qewavPO6jcA
+pytube.helpers 2023-03-20 16:47:11,923 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:47:14,593 ERROR Для https://www.youtube.com/watch?v=cXCuXNwzdfY не удалось получить информацию
+Exception while accessing title of https://youtube.com/watch?v=cXCuXNwzdfY. Please file a bug report at https://github.com/pytube/pytube
+pytube.helpers 2023-03-20 16:47:14,593 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract 2023-03-20 16:47:17,966 DEBUG applying descrambler
+pytube.extract 2023-03-20 16:47:17,967 DEBUG finding initial function name
+pytube.extract 2023-03-20 16:47:17,968 DEBUG Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract 2023-03-20 16:47:17,968 DEBUG Could not parse object.
+pytube.extract 2023-03-20 16:47:17,989 DEBUG finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher 2023-03-20 16:47:17,989 DEBUG finding initial function name
+pytube.cipher 2023-03-20 16:47:18,229 DEBUG finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher 2023-03-20 16:47:18,229 DEBUG getting transform plan
+pytube.helpers 2023-03-20 16:47:18,230 DEBUG matched regex search: Yta=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher 2023-03-20 16:47:18,230 DEBUG getting transform object
+pytube.cipher 2023-03-20 16:47:18,230 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:47:18,231 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.cipher 2023-03-20 16:47:18,233 DEBUG Finding throttling function name
+pytube.cipher 2023-03-20 16:47:18,233 DEBUG finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,234 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.extract 2023-03-20 16:47:18,235 DEBUG signature found, skip decipher
+pytube.streams 2023-03-20 16:47:19,047 DEBUG downloading (17763599 total bytes) file to C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS\ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ  ОСНОВЫ ПРОГРАММИРОВАНИЯ.mp4
+pytube.streams 2023-03-20 16:47:20,916 DEBUG download remaining: 8326415
+pytube.streams 2023-03-20 16:47:22,829 DEBUG download remaining: 0
+pytube.streams 2023-03-20 16:47:22,830 DEBUG download finished
+root 2023-03-20 16:47:22,830 DEBUG загружено в C:\Users\admin\Desktop\!Actual GIT\Usefull_atomic_modules\Video_downloader\Основы_программирования\Alek_OS https://www.youtube.com/watch?v=cXCuXNwzdfY
