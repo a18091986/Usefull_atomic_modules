@@ -1,0 +1,20 @@
+pytube.helpers 2023-03-20 16:00:58,379 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:01:00,371 DEBUG Для https://youtu.be/cXCuXNwzdfY?list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc получена информация:
+Title: ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 10
+pytube.helpers 2023-03-20 16:01:01,069 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+root 2023-03-20 16:01:02,207 DEBUG Для https://youtu.be/cXCuXNwzdfY?list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc получена информация:
+Title: ВСЯ СЛОЖНОСТЬ АЛГОРИТМОВ ЗА 11 МИНУТ | ОСНОВЫ ПРОГРАММИРОВАНИЯ
+Author: Alek OS
+Playlist количество видео: 10
+pytube.helpers 2023-03-20 16:01:02,296 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:03,651 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:05,066 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:06,546 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:07,904 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:09,324 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:10,807 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:12,237 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:13,742 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.helpers 2023-03-20 16:01:15,304 DEBUG matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
