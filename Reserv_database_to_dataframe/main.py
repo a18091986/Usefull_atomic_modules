@@ -1,0 +1,4 @@
+from utils.db import show_all_db_tables_columns, save_all_tables_from_all_db
+
+show_all_db_tables_columns()
+save_all_tables_from_all_db()
