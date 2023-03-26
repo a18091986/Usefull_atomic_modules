@@ -1,10 +1,18 @@
 import pathlib
 from datetime import datetime
-
 import mysql.connector
 from pathlib import Path
 import configparser
 import pandas as pd
+from sqlalchemy import create_engine, text
+
+
+def mysql_db_connect(user, password, host, database=None):
+    if database:
+        engine = create_engine(f"mysql+pymysql://{user}:{password}@{host}/{database}")
+    else:
+        engine = create_engine(f"mysql+pymysql://admin:0gfyfctyr0MYSQL@192.168.2.159")
+    return engine
 
 
 def my_mysql_db_connect(database=None, port=3306):
@@ -19,9 +27,11 @@ def my_mysql_db_connect(database=None, port=3306):
 
 
 def df_from_db_table(database: str, table: str) -> pd.DataFrame:
-    connection, cursor = my_mysql_db_connect(database=database)
+    # connection, cursor = my_mysql_db_connect(database=database)
+    engine = mysql_db_connect(user, password, host, database)
+    connection = engine.connect()
     query = "select * from {}".format(table)
-    return pd.read_sql(query, connection)
+    return pd.read_sql(text(query), connection)
 
 
 def save_df_from_db_table(database: str, table: str):
@@ -70,6 +80,11 @@ def save_all_tables_from_all_db():
 
 
 if __name__ == '__main__':
+    # engine = mysql_db_connect()
+    # insp = inspect(engine)
+    # db_list = insp.get_schema_names()
+    # print(db_list)
+
     config_path = '../config.ini'
     config = configparser.ConfigParser()
     config.read(config_path, encoding='utf-8')
@@ -77,6 +92,9 @@ if __name__ == '__main__':
     host = config['DB']['HOST']
     user = config['DB']['USER']
     password = config['DB']['PASSWORD']
+
+    engine = mysql_db_connect(user, password, host)
+    connection = engine.connect()
 
 else:
     config_path = Path('config.ini')
