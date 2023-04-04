@@ -12,11 +12,10 @@ config.read(config_path, encoding='utf-8')
 
 
 def path_create(fin_dir: str):
-    path = Path(f"\\\\192.168.2.222\\handmaderezerv\\_GIT_STUDY_PET\\DB\\{fin_dir}")
-    path.mkdir(parents=True, exist_ok=True)
-    print(123)
-    if not path.exists():
-        print(345)
+    try:
+        path = Path(f"\\\\192.168.2.222\\handmaderezerv\\_GIT_STUDY_PET\\DB\\{fin_dir}")
+        path.mkdir(parents=True, exist_ok=True)
+    except Exception as e:
         path = Path(f"/home/behappyman/mnt_nas_handmaderezerv/_GIT_STUDY_PET/DB/{fin_dir}")
         path.mkdir(parents=True, exist_ok=True)
     return path
